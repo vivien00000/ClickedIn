@@ -1,53 +1,49 @@
 
 const ex = require("express");
-const app = ex();
+const ps = require("./shop");
 const cors = require("cors");
+
+const app = ex();
+const s = ps.shop;
 
 app.use(ex.json());
 app.use(cors());
 
-const { shop } = require("./shop_data");
-
 // Define a route to get all items in the shop
 app.get("/api/shop/items", (req, res) => {
-  res.send(shop);
+  res.send(s);
 });
 
-// Define a route to get items by category
 app.get("/api/shop/items/:category", (req, res) => {
-  const category = req.params.category.toLowerCase();
-  const categoryItems = shop[category];
-
-  if (categoryItems) {
-    res.send(categoryItems);
-  } else {
-    res.status(404);
-    res.send("Category not found!");
-  }
-});
-
-// Define a route to get item details by category and ID
-app.get("/api/shop/items/:category/:id", (req, res) => {
-  const category = req.params.category.toLowerCase();
-  const itemId = Number(req.params.id);
-
-  if (shop[category]) {
-    const item = shop[category].find((item) => item.id === itemId);
-
-    if (item) {
-      res.send(item);
-    } else {
-      res.status(404);
-      res.send("Item not found!");
+  let fashion = false;
+  for (let i=0; i<s.length; i++){
+    if (s[i].id == Number(req.params.id)) {
+      fashion = s[i];
+      break;
     }
+  }
+  if (fashion) {
+    res.send(fashion);
+    console.log(fashion);
   } else {
+    let err = "Item not found!";
     res.status(404);
-    res.send("Category not found!");
+    res.send(err);
+    console.error(err);
   }
 });
 
-// Other routes related to pets...
+app.get("/api/shop/items/:category", (req, res) => {
+  let category = [];
+  for (let i=0; i< s.length; i++){
+    if (category.includes(s[i].category) == false) {
+      category.push(s[i].category);
+    }
+  }
 
-app.listen(3000, () => {
-  console.log("Server is running on port 3000");
+  res.send(category);
 });
+
+let port = 3001;
+app.listen(port);
+console.log("Starting server at port " + port + "...");
