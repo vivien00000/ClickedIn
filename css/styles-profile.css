@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+  }
+  
+  #login-form {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(240, 128, 128, 0.571);
+    display: block;
+  }
+  
+  #address {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(240, 128, 128, 0.571);
+    display: block;
+  }
+  
+  #href {
+    color: turquoise;
+  }
+  
+  #href:hover {
+    color: blue;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: rgb(242, 210, 189);
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(229, 177, 143);
+  }
+  

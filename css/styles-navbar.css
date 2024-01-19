@@ -1,0 +1,44 @@
+/** @format */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  box-shadow: 10%;
+  background-color: rgb(246, 238, 233);
+  margin-bottom: 10px;
+}
+
+#carouselExampleAutoplaying {
+  margin-top: -18px;
+}
+.navbar-brand {
+  margin-right: auto;
+}
+
+#nav-search {
+  border-radius: 15%;
+  border-color: #ffffff;
+  background-color: rgb(249, 232, 220);
+}
+
+/* Add space between navbar items */
+.navbar-nav {
+  margin-left: auto;
+}
+.nav-link:hover {
+  color: #ffffff;
+  background-color: rgb(234, 194, 167);
+  border-radius: 15%;
+  padding: 1px;
+}
+/* Style the search bar */
+.search-bar {
+  display: flex;
+  align-items: left;
+  border-radius: 20%;
+}
+
+.search-input {
+  margin-right: 5px;
+}

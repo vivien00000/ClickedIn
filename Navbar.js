@@ -1,8 +1,3 @@
-/** @format */
-
-import React, { Component } from "react";
-import { Modal, Dropdown } from 'react-bootstrap';
-import "../css/styles-navbar.css";
 
 class Navbar extends Component {
   state = {
