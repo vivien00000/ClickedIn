@@ -34,28 +34,37 @@
             let shop = JSON.parse(my_text);
             console.log(shop);
 
-            // shop.categories.forEach(category => {
-            //     category.items.forEach(item => {
-                for (let i = 0; i < shop.length; i++) {
-                    let productCard =
-                        '<div class="col-lg-3"><div class="card"><img src="img/' +
-                        shop[i].items.classification[i].image +
-                        '" class="card-img-top" alt="product" /><div class="card-body"><h2>' +
-                        item.type +
-                        '</h2><strong>Brand: </strong><span id="brand">' +
-                        shop[i].items.classification[i].brand +
-                        '</span><br /><strong>Color: </strong><span id="color">' +
-                        shop[i].items.classification[i].color +
-                        '</span><br /><strong>Size: </strong><span id="size">' +
-                        shop[i].items.classification[i].size +
-                        '</span><br /><strong>Price: </strong><span id="price">' +
-                        shop[i].items.classification[i].price +
-                        '</span><br /><a href="#" class="btn btn-primary">more</a></div></div></div>';
-                    $("#shop_display").append(Card);
-                }
-            }
-        
+            // shop.images.forEach(image => {
+            //     image.items.forEach(item => {
+                for (let category of shop) {
+  for (let item of category.items) {
+    for (let classification of item.classification) {
+      console.log("Current Classification:", classification);
 
+      let productCard =
+        '<div class="col-lg-3"><div class="card"><img src="' +
+        classification.image +
+        '" class="card-img-top" alt="product" /><div class="card-body"><h2>' +
+        classification.type +
+        '</h2><strong>Brand: </strong><span id="brand">' +
+        classification.brand +
+        '</span><br /><strong>Color: </strong><span id="color">' +
+        classification.color +
+        '</span><br /><strong>Size: </strong><span id="size">' +
+        classification.size +
+        '</span><br /><strong>Price: </strong><span id="price">' +
+        classification.price +
+        '</span><br /><a href="#" class="btn btn-primary">more</a></div></div></div>';
+      $("#shop_display").append(productCard);
+    }
+  }
+}
+        }
+            //  ) 
+        
+            // )}
+
+        // getData("http://localhost:3001/api/shop");
         getData("http://localhost:3001/api/shop");
     </script>
     <title>ClickedIn</title>
