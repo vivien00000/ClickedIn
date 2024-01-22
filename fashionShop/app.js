@@ -66,4 +66,9 @@ app.get("/api/shop/items/:category/:type/:classification", (req, res) => {
   res.send(err);
   console.error(err);
 });
-app.listen(3001);
+
+//Server Setup
+let port = process.emv.PORT || 3001;
+app.listen(port, () => {
+  console.log("Server is running on port " + port);
+});
