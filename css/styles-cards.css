@@ -11,7 +11,7 @@
   height: 100%; /* Set a fixed height for the cards */
   border: 1px solid #ddd; /* Add a border for better separation */
   border-radius: 10px; /* Rounded corners for a modern look */
-  box-shadow: 0 4px 8px rgba(153, 104, 104, 0.1); /* Add a subtle box shadow */
+  box-shadow: 0 4px 8px rgba(5, 5, 5, 0.1); /* Add a subtle box shadow */
 }
 
 .card-img-top {
