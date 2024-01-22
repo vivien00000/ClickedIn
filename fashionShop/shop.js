@@ -7,53 +7,53 @@ let shop = [
         classification: [
           {
             id: 0,
+
             brand: "Dior",
             color: "Blue",
             size: "Small, Medium, Large",
             price: "₱999.00",
             image: "img/men_tops/top_1_front.png",
-            description:
-              "Comfortable and stylish Nike men's top with moisture-wicking fabric.",
+            description: "Comfortable and stylish top with ...",
           },
           {
             id: 1,
+
             brand: "Adidas",
             color: "Khaki Brown",
             size: "Small, Medium, Large",
             price: "₱449.99",
             image: "img/men_tops/top_2_front.png",
-            description:
-              " Crafted with quality and comfort in mind, this top is a ensuring a perfect fit for every individual. The versatile khaki brown color adds a touch of sophistication to your wardrobe.",
+            description: " Crafted with quality and comfort in ...",
           },
           {
             id: 2,
+
             brand: "Nike",
             color: "Dirty White",
             size: "Small, Medium, Large",
             price: "₱399.99",
             image: "img/men_tops/top_3_front.png",
-            description:
-              "Breathable Puma men's top suitable for workouts and casual wear.",
+            description: "Breathable Puma men's top suitable...",
           },
           {
             id: 3,
+
             brand: "Dickies",
             color: "White and Pink",
             size: "Small, Medium, Large",
             price: "₱549.99",
             image: "img/men_tops/top_4_front.png",
-            description:
-              "Whether you're aiming for a laid-back look or want to make a statement, this top has got you covered. The classic combination of white and pink adds a touch of freshness to your outfit.",
+            description: "Whether you're aiming for a ...",
           },
           {
             id: 4,
+
             brand: "Reebok",
             color: "Black, Brown, White ",
             size: "Medium, Large, XL",
             price: "₱479.99",
             image: "img/men_tops/top_5_front.png",
-            description:
-              "Classic Reebok men's top with a modern twist, perfect for everyday wear.",
+            description: "Classic Reebok men's top with a ...",
           },
         ],
       },
@@ -62,6 +62,7 @@ let shop = [
         classification: [
           {
             id: 0,
+
             brand: "Lee",
             color: "White",
             size: "Small, Medium, Large",
@@ -71,36 +72,38 @@ let shop = [
           },
           {
             id: 1,
+
             brand: "Nike",
             color: "Black and Brown",
             size: "Medium, Large, XL",
             price: "₱399.99",
             image: "img/men_bottom/bottom_2_front.png",
-            description:
-              "Crafted for those who demand both style and functionality, these shorts are ideal for workouts, casual outings, or just relaxing at home.",
+            description: "Crafted for those who demand both ...",
           },
           {
             id: 2,
+
             brand: "Puma",
             color: "White",
             size: "Small, Large, XL",
             price: "₱369.99",
             image: "img/men_bottom/bottom_3_front.png",
-            description: "White pants with 6 pockets",
+            description: "White pants with 6 pockets.",
           },
           {
             id: 3,
+
             brand: "Under Armour",
             color: "Gray Heather",
             size: "Small, Medium, Large",
             price: "₱749.99",
             image: "img/men_bottom/bottom_4_front.png",
-            description:
-              "High-performance Under Armour men's pants with quick-dry technology.",
+            description: "High-performance Under Armour ...",
           },
 
           {
             id: 4,
+
             brand: "Under Armour",
             color: "Brown",
             size: "Small, Medium, Large",
@@ -115,12 +118,13 @@ let shop = [
         classification: [
           {
             id: 0,
+
             brand: "Nike",
             color: "Brown",
             size: "Small, Medium, Large",
             price: "₱599.99",
             image: "img/men_sweater/sweater_1_front.png",
-            description: "A stylish sweater wit a comfortable fabric.",
+            description: "A stylish sweater with a comfortable...",
           },
           {
             id: 1,
@@ -133,33 +137,33 @@ let shop = [
           },
           {
             id: 2,
+
             brand: "Adidas",
             color: "Green",
             size: "Small, Medium, Large",
             price: "₱589.99",
             image: "img/men_sweater/sweater_3_front.png",
-            description:
-              " A perfect fusion of style and comfort. Elevate your casual wardrobe with this versatile piece that adds a pop of color to your ensemble. ",
+            description: " A perfect fusion of style and ... ",
           },
           {
             id: 3,
+
             brand: "Nike",
             color: "White",
             size: "Small, Medium, Large",
             price: "₱599.99",
             image: "img/men_sweater/sweater_4_front.png",
-            description:
-              "A timeless addition to your cold-weather collection. Crafted with precision and style, this knitted sweater not only keeps you warm but also ensures you stay on-trend.",
+            description: "A timeless addition to your cold-...",
           },
           {
             id: 4,
+
             brand: "Nike",
             color: "Black",
             size: "Small, Medium, Large",
             price: "₱599.99",
             image: "img/men_sweater/sweater_5_front.png",
-            description:
-              "The perfect blend of comfort and urban style. This classic black hoodie is a wardrobe essential, providing warmth and a contemporary edge to your look.",
+            description: "The perfect blend of comfort and ...",
           },
         ],
       },
@@ -173,8 +177,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱799.99",
             image: "img/men_co-ords/co-ords_1_front.png",
-            description:
-              "This set includes a pair of stylish shorts and a matching t-shirt, making it an effortless choice for beach days, or just relaxing at home.",
+            description: "This set includes a pair of stylish ...",
           },
           {
             id: 1,
@@ -183,8 +186,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱699.99",
             image: "img/men_co-ords/co-ords_2_front.png",
-            description:
-              "This pair features a classic t-shirt and comfortable shorts, resulting in a coordinated and effortlessly chic style.",
+            description: "This pair features a classic t-shirt ...",
           },
           {
             id: 2,
@@ -193,8 +195,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱799.99",
             image: "img/men_co-ords/co-ords_3_front.png",
-            description:
-              " This set includes uniquely designed printed shorts and pants, adding an extra layer of personality to your look.",
+            description: " This set includes uniquely designed ...",
           },
           {
             id: 3,
@@ -203,8 +204,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱999.99",
             image: "img/men_co-ords/co-ords_4_front.png",
-            description:
-              "Crafted from high-quality materials, this co-ords set ensures a comfortable and relaxed fit, making it ideal for both lounging and casual outings.",
+            description: "Crafted from high-quality materials, ...",
           },
           {
             id: 4,
@@ -213,8 +213,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱959.99",
             image: "img/men_co-ords/co-ords_5_front.png",
-            description:
-              "A perfect fusion of athletic flair and contemporary style. This set features a baseball-inspired design, including a comfortable top and matching bottoms. ",
+            description: "A perfect fusion of athletic flair and ... ",
           },
         ],
       },
@@ -260,8 +259,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱999.00",
             image: "img/women_tops/tops_4_front.png",
-            description:
-              " A perfect blend of fashion and femininity. This top features a chic checkered pattern, long sleeves, and an off-shoulder design, making it a versatile choice for various occasions.",
+            description: " A perfect blend of fashion and ...",
           },
           {
             id: 4,
@@ -270,8 +268,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱899.00",
             image: "img/women_tops/tops_2_front.png",
-            description:
-              "The deep navy blue color offers a timeless and flexible touch to any ensemble. Designed from high-quality materials, this Zalora blouse has a flattering fit and flows wonderfully on the body..",
+            description: "The deep navy blue color offers a ...",
           },
         ],
       },
@@ -299,8 +296,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱799.00",
             image: "img/women_bottom/bottom_1_front.png",
-            description:
-              "This skirt is designed to perfectly combine fashion and function, giving you the confidence to conquer any exercise or casual outing.",
+            description: "This skirt is designed to perfectly ...",
           },
           {
             id: 1,
@@ -309,7 +305,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱699.00",
             image: "img/women_bottom/bottom-2_front.png",
-            description: "Flowery pattern skirt perfect for beach outfits.",
+            description: "Flowery pattern skirt ...",
           },
           {
             id: 2,
@@ -327,7 +323,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱849.00",
             image: "img/women_bottom/bottom_4_front.png",
-            description: "Fitted short skirt with slit design.",
+            description: "Fitted short skirt with slit ...",
           },
         ],
       },
@@ -341,7 +337,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱799.99",
             image: "img/women_dress/blue_short_dress_front.png",
-            description: "Jacquard Square Neck Puff Sleeve Dress.",
+            description: "Jacquard Square Neck Puff ...",
           },
           {
             id: 1,
@@ -350,7 +346,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱899.99",
             image: "img/women_dress/long_dress_green_front.png",
-            description: "Solid Tie Shoulder Cami Dress",
+            description: "Solid Tie Shoulder Cami ..",
           },
           {
             id: 2,
@@ -359,7 +355,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱899.99",
             image: "img/women_dress/pink_dress_front.png",
-            description: " Floral Print Cami Dress Without Blouse",
+            description: " Floral Print Cami Dress ...",
           },
           {
             id: 3,
@@ -368,7 +364,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱799.99",
             image: "img/women_dress/pink_floral_dress_front.png",
-            description: "Allover Floral Print Ruched Bust Cami Dress.",
+            description: "Allover Floral Print Ruched Bust ...",
           },
           {
             id: 4,
@@ -377,7 +373,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱799.99",
             image: "img/women_dress/sexy_grey_dress_front.png",
-            description: " Crisscross Backless Ruched Glitter Bodycon Dress.",
+            description: " Crisscross Backless Ruched ...",
           },
         ],
       },
@@ -391,7 +387,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱1,099.00",
             image: "img/women_co-ords/co-ords_1_front.png",
-            description: "Contrast Trim Bow Front Crop Jacket & Skirt.",
+            description: "Contrast Trim Bow Front Crop ...",
           },
           {
             id: 1,
@@ -400,7 +396,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱999.99",
             image: "img/women_co-ords/co-ords_2_front.png",
-            description: " Solid Crop Top & Ditsy Floral Print Wrap Skirt Set.",
+            description: " Solid Crop Top & Ditsy ...",
           },
           {
             id: 2,
@@ -409,8 +405,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱1,099.99",
             image: "img/women_co-ords/co-ords_3_front.png",
-            description:
-              "Ladies' Lace Camisole Top And Mermaid Hem Skirt Two Piece Set.",
+            description: "Ladies' Lace Camisole Top And Mermaid Hem ...",
           },
           {
             id: 3,
@@ -419,8 +414,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱899.99",
             image: "img/women_co-ords/co-ords_4_front.png",
-            description:
-              "Knitted Diamond Checkered Printed Tank Top And Pleated Skirt Set",
+            description: "Knitted Diamond Checkered Printed ...",
           },
           {
             id: 4,
@@ -429,8 +423,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱999.99",
             image: "img/women_co-ords/co-ords_5_front.png",
-            description:
-              " Ladies' Solid Color Faux Leather Strapless Two Piece Set.",
+            description: " Ladies' Solid Color Faux Leather ...",
           },
         ],
       },
@@ -449,7 +442,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱399.99",
             image: "img/kids_tops/top_1_front.png",
-            description: "inside shirt white and sando infront",
+            description: "inside shirt white and...",
           },
           {
             id: 1,
@@ -476,7 +469,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱599.99",
             image: "img/kids_tops/top_4_front.png",
-            description: "Knitted Solid Off Shoulder Slim Fit Casual T-Shirt.",
+            description: "Knitted Solid Off Shoulder ...",
           },
           {
             id: 4,
@@ -522,7 +515,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱499.99",
             image: "img/kids_bottom/bottom_1_front.png",
-            description: "Striped Print Bow Front Asymmetrical Hem Skort.",
+            description: "Striped Print Bow Front ...",
           },
           {
             id: 2,
@@ -531,8 +524,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱599.99",
             image: "img/kids_bottom/bottom_2_front.png",
-            description:
-              "Fashionable And Elegant Plaid Woven Shorts With Metal Decorated Button.",
+            description: "Fashionable And Elegant Plaid Woven Shorts ...",
           },
           {
             id: 3,
@@ -541,8 +533,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱499.99",
             image: "img/kids_bottom/bottom_3_front.png",
-            description:
-              "Solid Color Paper Bag Tie Waist Bowknot Skort For Summer.",
+            description: "Solid Color Paper Bag Tie Waist Bowknot ...",
           },
         ],
       },
@@ -556,8 +547,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱699.00",
             image: "img/kids_dress/dress_1_front.png",
-            description:
-              "Preppy-Style Heart-Shaped Printed Striped Polo Collar Sleeveless Dress, Summer.",
+            description: "Preppy-Style Heart-Shaped Printed ...",
           },
           {
             id: 1,
@@ -566,8 +556,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱659.00",
             image: "img/kids_dress/dress_2_front.png",
-            description:
-              "Unleash the trendsetter in your little one with Bench's navy blue wonder. This dress combines fashion and functionality seamlessly. With sizes ranging from Small to Large, it's a perfect fit for any adventure.",
+            description: "Unleash the trendsetter in your ...",
           },
           {
             id: 2,
@@ -576,8 +565,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱699.00",
             image: "img/kids_dress/dress_3_front.png",
-            description:
-              "Embrace elegance with Shein's Cedar Brown dress, a sophisticated addition to your kid's wardrobe. This dress is a blend of comfort and chic.",
+            description: "Embrace elegance with Shein's Cedar ...",
           },
           {
             id: 3,
@@ -586,8 +574,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱599.00",
             image: "img/kids_dress/dress_4_front.png",
-            description:
-              "Everyday Casual Knitted Solid Color round-Neck Short Sleeve Dress",
+            description: "Everyday Casual Knitted Solid Color..",
           },
           {
             id: 4,
@@ -596,8 +583,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱599.00",
             image: "img/kids_dress/dress_5_front.png",
-            description:
-              "Double-Layered Floral Printed Party Cami Dress With Bow Tie And Frilly Hem For Summer",
+            description: "Double-Layered Floral Printed Party ...",
           },
         ],
       },
@@ -611,8 +597,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱799.00",
             image: "img/kids_co-ords/co-ords_1_front.png",
-            description:
-              "Letter Graphic Striped Trim Sweater & Pleated Knit Skirt",
+            description: "Letter Graphic Striped Trim Sweater & ...",
           },
           {
             id: 1,
@@ -621,8 +606,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱899.00",
             image: "img/kids_co-ords/co-ords_2_front.png",
-            description:
-              "Flower Decorated Knitted Cardigan And Pleated Skirt Set",
+            description: "Flower Decorated Knitted Cardigan...",
           },
           {
             id: 2,
@@ -630,9 +614,8 @@ let shop = [
             color: "Camel Brown, Black",
             size: "Small, Medium, Large",
             price: "₱799.00",
-            image: "img/kids_co-ords/co-ords_3_front.png",
-            description:
-              "Ruffle Trim Cable Knit Cardigan & Plaid Pattern Knit Skirt",
+            image: "img/kids_co-ords/co-ord_3_front.png",
+            description: "Ruffle Trim Cable Knit Cardigan...",
           },
           {
             id: 3,
@@ -641,7 +624,7 @@ let shop = [
             size: "Small, Medium, Large",
             price: "₱799.00",
             image: "img/kids_co-ords/co-ords_4_front.png",
-            description: "Kbitted kids beach wear.",
+            description: "Knitted kids beach wear.",
           },
           {
             id: 4,
@@ -649,7 +632,7 @@ let shop = [
             color: "Dark Brown",
             size: "Small, Medium, Large",
             price: "₱599.00",
-            image: "img/kids_co-ords/co-ords_4_front.png",
+            image: "img/kids_co-ords/co-ords_5_front.png",
             description: "Checkered sweater set",
           },
         ],
