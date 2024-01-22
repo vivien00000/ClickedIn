@@ -8,7 +8,7 @@ const s = ps.shop;
 app.use(ex.json());
 app.use(cors());
 
-// Define a route to get all items in the shop
+// api
 app.get("/api/shop/", (req, res) => {
   res.send(s);
 });
